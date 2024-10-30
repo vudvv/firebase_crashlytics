@@ -24,7 +24,10 @@ dependencies:
       url: https://github.com/vudvv/firebase_core.git
       ref: v3.6.1
   firebase_core_platform_interface: ^5.3.0
-  firebase_crashlytics_platform_interface: ^3.6.44
+  firebase_crashlytics_platform_interface:
+    git:
+      url: https://github.com/vudvv/firebase_crashlytics_platform_interface.git
+      ref: v3.6.45
   flutter:
     sdk: flutter
   stack_trace: ^1.10.0
